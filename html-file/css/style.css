@@ -87,7 +87,7 @@ body::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.99);
 }
 body::-webkit-scrollbar-thumb {
-  background-color: #4f8404;
+  background-color: #c1c374;
   outline: 1px solid slategrey;
 }
 
@@ -434,12 +434,12 @@ li {
     transition: all 500ms ease;
 }
 .accordion-box .accordion .accord-btn.active h4 {
-    color: #69ad07;
+    color: #3d9970;
 }
 .accordion-box .accordion .accord-btn.active:after{
     content: "\f107";
-    color: #69ad07;
-    border-color: #69ad07;
+    color: #3d9970;
+    border-color: #3d9970;
     background: transparent;
 }
 .accordion-box .accordion .accord-content {
@@ -1056,7 +1056,7 @@ select:focus {
 }
 .outer-search-box .seach-toggle:hover,
 .outer-search-box .seach-toggle.active{
-    color: #fdbf1d;
+    color: #ffd56b;
 }
 .search-box {
     opacity: 0;
@@ -1207,7 +1207,7 @@ select:focus {
     font-family: 'Rubik', sans-serif;
 }
 .main-slider .slide-content .text span{
-    color: #fdbf1d;
+    color: #ffd56b;
     font-size: 48px;
     font-weight: 700;
     font-family: 'Caveat', cursive;
@@ -1232,7 +1232,7 @@ select:focus {
     top: 5px;
     display: inline-block;
     padding-right: 10px;
-    color: #fdbf1d;
+    color: #ffd56b;
     font-size: 25px;
     line-height: 25px;
 }
@@ -1263,7 +1263,7 @@ select:focus {
     line-height: 30px;
     display: inline-block;
     padding-right: 12px;
-    color: #fdbf1d;
+    color: #ffd56b;
 }
 
 .main-slider .metis.tparrows{
@@ -1590,7 +1590,7 @@ select:focus {
 .single-service-item .img-holder .overlay-style-one .text-holder .title-holder{}
 .single-service-item .img-holder .overlay-style-one .text-holder .title-holder .icon{}
 .single-service-item .img-holder .overlay-style-one .text-holder .title-holder .icon span:before{
-    color: #fdbf1d;
+    color: #ffd56b;
 }
 .single-service-item .img-holder .overlay-style-one .text-holder .title-holder .title{}
 .single-service-item .img-holder .overlay-style-one .text-holder .title-holder .title h3{}
@@ -1696,7 +1696,7 @@ select:focus {
     width: 410px;
     height: 60px;
     margin: 0 auto;
-    background: #fdbf1d;
+    background: #ffd56b;
     color: #ffffff;
     font-size: 24px;
     line-height: 58px;
@@ -4159,7 +4159,7 @@ overflow:-webkit-paged-y;
     width: 330px;
     height: 55px;
     margin: 34px auto 0;
-    background: #fdbf1d;
+    background: #ffd56b;
     display: block;
     border-radius: 30px;
     color: #ffffff;
@@ -4224,7 +4224,7 @@ overflow:-webkit-paged-y;
 }
 .health-plan-tab .tab-menu li.active span, 
 .health-plan-tab .tab-menu li:hover span{
-    background: #35ac46;
+    background: #3d9970;
     color: #ffffff;
 }
 
@@ -4280,7 +4280,7 @@ overflow:-webkit-paged-y;
     margin: 0 0 10px;
 }
 .health-plan-tab .tab-content-box .inner-content .single-box .top h1{
-    color: #35ac46;
+    color: #3d9970;
     font-size: 36px;
     font-weight: 400;
 }
@@ -4311,15 +4311,15 @@ overflow:-webkit-paged-y;
     transition: all 500ms ease;
 }
 .health-plan-tab .tab-content-box .inner-content .single-box:hover .bottom a{
-    background: #35ac46;
+    background: #3d9970;
     color: #ffffff;
 }
 
 .health-plan-tab .tab-content-box .inner-content .single-box.hot{
-    border-color: #35ac46;    
+    border-color: #3d9970;    
 }
 .health-plan-tab .tab-content-box .inner-content .single-box.hot .top{
-    border-bottom: 1px solid #31a041;    
+    border-bottom: 1px solid #3d9970;    
 }
 .health-plan-tab .tab-content-box .inner-content .single-box.hot .top h2{
     color: #ffffff;    
@@ -5815,7 +5815,7 @@ overflow:-webkit-paged-y;
     right: 20px;
     height: 25px;
     width: 70px;
-    background: #fdbf1d;
+    background: #ffd56b;
     border-radius: 30px;
     text-align: center;
     z-index: 2;
