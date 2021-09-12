@@ -64,9 +64,9 @@
 /*** jquery ui css ***/
 @import url(../assets/jquery-ui-1.11.4/jquery-ui.css);
 /*** Revolution slider ***/
-@import url(../plugins/revolution/css/settings.css);
-@import url(../plugins/revolution/css/layers.css);
-@import url(../plugins/revolution/css/navigation.css);
+/* @import url(../plugins/revolution/css/settings.css); */
+/* @import url(../plugins/revolution/css/layers.css); */
+/* @import url(../plugins/revolution/css/navigation.css); */
 /*** Bootstrap select picker css ***/
 @import url(../assets/bootstrap-sl-1.12.1/bootstrap-select.css);
 /*** Language Switcher ***/
