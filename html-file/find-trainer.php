@@ -64,13 +64,29 @@
             </div>
         </div>
     </div>
-    <form method="post" action="inc/testemail.php">
+    <form method="post" action="">
             <input type="submit" value="Send details to embassy" />
             <input type="hidden" name="button_pressed" value="1" />
         </form>
 </section>
 <!--End coming soon area -->
+<?php
 
+if(isset($_POST['button_pressed']))
+{
+    $to      = 'nathanielmether@gmail.com';
+    $subject = 'the subject';
+    $message = 'hello';
+    $headers = 'From: methernathaniel@gmail.com' . "\r\n" .
+        'Reply-To: methernathaniel@gmail.com' . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
+
+    mail($to, $subject, $message, $headers);
+
+    echo 'Email Sent.';
+}
+
+?>
 <!--Start footer area-->  
 <footer class="footer-area" style="background-image: url(images/footer/footer-bg.png);">
     <div class="container">
