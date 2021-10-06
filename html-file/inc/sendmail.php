@@ -18,13 +18,13 @@ $message = "";
 $status = "false";
 
 if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
-//  if( $_POST['form_name'] != '' AND $_POST['form_email'] != '' AND $_POST['form_subject'] != '' ) {
+ if( $_POST['form_name'] != '' AND $_POST['form_email'] != '' AND $_POST['form_subject'] != '' ) {
 
- $name = 'form_name';
- $email = 'methernathaniel@gmail.com';
- $subject = 'form_subject';
- $phone = 'form_phone';
- $message = 'form_message';
+ $name = $_POST['form_name'];
+ $email = $_POST['form_email'];
+ $subject = $_POST['form_subject'];
+ $phone = $_POST['form_phone'];
+ $message = $_POST['form_message'];
 
  $subject = isset($subject) ? $subject : 'New Message | Contact Form';
 
@@ -33,7 +33,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
  $toemail = 'nathanielmether@gmail.com'; // Your Email Address
  $toname = 'Nathaniel'; // Your Name
 
-//  if( $botcheck == '' ) {
+ if( $botcheck == '' ) {
 
  $mail->SetFrom( $email , $name );
  $mail->AddReplyTo( $email , $name );
@@ -59,14 +59,14 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
  $message = 'Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.<br /><br /><strong>Reason:</strong><br />' . $mail->ErrorInfo . '';
  $status = "false";
  endif;
-//  } else {
-//  $message = 'Bot <strong>Detected</strong>.! Clean yourself Botster.!';
-//  $status = "false";
-//  }
-//  } else {
-//  $message = 'Please <strong>Fill up</strong> all the Fields and Try Again.';
-//  $status = "false";
-//  }
+ } else {
+ $message = 'Bot <strong>Detected</strong>.! Clean yourself Botster.!';
+ $status = "false";
+ }
+ } else {
+ $message = 'Please <strong>Fill up</strong> all the Fields and Try Again.';
+ $status = "false";
+ }
 } else {
  $message = 'An <strong>unexpected error</strong> occured. Please Try Again later.';
  $status = "false";
