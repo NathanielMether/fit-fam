@@ -21,7 +21,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 //  if( $_POST['form_name'] != '' AND $_POST['form_email'] != '' AND $_POST['form_subject'] != '' ) {
 
  $name = 'form_name';
- $email = 'form_email';
+ $email = 'methernathaniel@gmail.com';
  $subject = 'form_subject';
  $phone = 'form_phone';
  $message = 'form_message';
